@@ -99,11 +99,11 @@ public class ArrayCheck {
         //    System.out.println(str1[i]);
        for(int i=0;i<str1.length;i++)
         {
-            System.out.println("Swap String", reverse(str1[i]));
+            System.out.println("Swap String" + reverse(str1[i]));
         }
 
     }
-    public String reverse(String s)
+    public static String reverse(String s)
     {
 
         Char ch[] = s.toCharArray();
@@ -119,6 +119,7 @@ public class ArrayCheck {
                 j += 2;
             }
         }
+        return  rev;
     }
 
 
